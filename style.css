@@ -1,0 +1,99 @@
+*{
+	margin:0px;
+	padding:0px;
+	font-family:arial;
+	box-sizing:border-box;
+}
+#main{
+	width:95%;
+	margin:auto;
+	
+}
+.nav{
+	width:100%;
+	min-height:50px;
+	
+	
+	
+}
+.logo{
+	width:25%;
+	min-height:50px;
+	background-color:lightgray;
+	float:left;
+	line-height:50px;
+	text-align:center;
+}
+.Menubar{
+	width:75%;
+	min-height:50px;
+	
+	float:right;
+}
+div.Menubar > ul{
+	margin:0px;
+	padding:0px;
+	list-style-type:none;
+	background-color:lightgray;
+}
+div.Menubar > ul > li {
+	float:left;
+}
+div.Menubar > ul::after{
+	content:"";
+	display:block;
+	clear:left;
+	
+}
+div.Menubar > ul > li > a{
+	text-decoration:none;
+	background-color:lightgray;
+	color:white;
+	display:inline-block;
+	height:50px;
+	width:150px;
+	text-align:center;
+	line-height:50px;
+	font-family:tahoma;
+}
+div.Menubar > ul > li > a:hover{
+	background-color:black;
+}
+.header{
+	width:100%;
+	min-height:200px;
+	background-color:lightgray;
+	margin-top:3px;
+	text-align:center;
+	line-height:200px;
+}
+#body_area{
+	width:100%;
+	min-height:400px;
+	
+	margin-top:3px;
+}
+.side_bar{
+	width:25%;
+	min-height:400px;
+	background-color:lightgray;
+	text-align:center;
+	line-height:400px;
+	float:left;
+}
+.body-area{
+	width:74%;
+	min-height:400px;
+	background-color:lightgray;
+	text-align:center;
+	line-height:400px;
+	float:right;
+}
+#footer_area{
+	width:100%;
+	min-height:100px;
+	background-color:lightgray;
+	text-align:center;
+	line-height:100px;
+	margin-top:3px;
+}
